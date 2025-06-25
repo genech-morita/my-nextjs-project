@@ -11,9 +11,7 @@ phases:
   build:
     commands:
       - echo "🏗️ Building Next.js..."
-      - npm run build
-      - echo "📦 Exporting static files to out/..."
-      - npm run export
+      - npm run build   # これだけで out/ に静的ファイルが作成される
 
 artifacts:
   files:
