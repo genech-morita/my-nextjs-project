@@ -18,7 +18,7 @@ return(
     <li>好きな食べ物は{like}です</li>
     <li>嫌いなことは{dislike}です</li>
     <li>年齢は{age}です</li>
-    <li>お気に入りの場所は{place}です</li>
+    <li>お気に入りの場所はhaha{place}です</li>
 </ul>
 </main>
 )
